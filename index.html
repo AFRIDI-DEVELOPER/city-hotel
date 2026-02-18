@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Hotel & Lodge | Refined Sanctuary</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo-section">
+                <div class="logo-icon-card">
+                    <i data-lucide="hotel"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-brand">CITY<span class="logo-brand-highlight">HOTEL</span></span>
+                    <span class="logo-subtitle">Refined Sanctuary</span>
+                </div>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#rooms" class="nav-link">Rooms</a>
+            </div>
+            <button class="mobile-toggle">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <button class="mobile-menu-close">
+            <i data-lucide="x"></i>
+        </button>
+        <ul class="mobile-nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span
+                    style="width: 6px; height: 6px; background: #b89145; border-radius: 50%; display: inline-block;"></span>
+                Welcome to Excellence
+            </div>
+            <h1 class="hero-title">Experience <br><span class="hero-title-highlight">Refinement</span></h1>
+            <p class="hero-description">
+                A sanctuary where timeless <span
+                    style="color: white; font-weight: 500; border-bottom: 1px solid rgba(184, 145, 69, 0.4);">luxury</span>
+                meets modern sophistication. Your architectural escape in the heart of the city.
+            </p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section-about">
+        <div class="container about-grid">
+            <div class="about-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&q=80&w=800"
+                    alt="Luxury Interior" class="about-image">
+            </div>
+            <div class="about-content">
+                <span class="about-badge">Our Story</span>
+                <h2 class="about-title">A Legacy of Timeless <br><span class="logo-brand-highlight">Excellence</span>
+                </h2>
+                <p class="about-description">
+                    Since our inception, the City Hotel and Lodge has been synonymous with unparalleled luxury and
+                    service. Our commitment to architectural refinement and personal care creates an atmosphere where
+                    every stay becomes a cherished memory.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="section-rooms">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 5rem;">
+                <span class="about-badge" style="margin: 0 auto;">Our Collection</span>
+                <h2 class="about-title" style="margin-top: 1rem;">Experience Elegance</h2>
+                <p class="about-description" style="max-width: 600px; margin: 0 auto; color: var(--text-muted);">
+                    Discover our curated collection
+                    of rooms designed for the modern connoisseur of luxury.</p>
+            </div>
+            <div class="rooms-grid">
+                <!-- AC Room -->
+                <div class="room-card">
+                    <div class="room-image-wrapper">
+                        <img src="room.jpg" alt="AC Room" class="room-image">
+                        <div class="room-price">700 / Night</div>
+                    </div>
+                    <div class="room-info">
+                        <h3 class="room-title">AC Room</h3>
+                        <p class="room-desc">Climate-controlled luxury with premium amenities and specialized service
+                            for a truly comfortable stay.</p>
+                    </div>
+                </div>
+                <!-- Non-AC Room -->
+                <div class="room-card">
+                    <div class="room-image-wrapper">
+                        <img src="room2.jpg" alt="Non-AC Room" class="room-image">
+                        <div class="room-price">500 / Night</div>
+                    </div>
+                    <div class="room-info">
+                        <h3 class="room-title">Non-AC Room</h3>
+                        <p class="room-desc">Breezy and natural architectural space offering a serene atmosphere and
+                            essential boutique comforts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section class="section-amenities">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 5rem;">
+                <span class="hero-badge"
+                    style="background: rgba(184, 145, 69, 0.1); color: var(--primary);">Services</span>
+                <h2 class="about-title" style="margin-top: 1rem;">Our World-Class Amenities</h2>
+                <p class="about-description" style="max-width: 600px; margin: 0 auto; color: var(--text-muted);">We
+                    provide a comprehensive range
+                    of services tailored to meet the needs of our most discerning guests.</p>
+            </div>
+            <div class="amenities-grid">
+                <div class="amenity-card">
+                    <div class="amenity-icon"><i data-lucide="hotel"></i></div>
+                    <h4 class="amenity-title">Luxury Suite</h4>
+                    <p class="amenity-desc">Stay with us and experience the pinnacle of architectural elegance and
+                        comfort.</p>
+                </div>
+                <div class="amenity-card">
+                    <div class="amenity-icon"><i data-lucide="utensils"></i></div>
+                    <h4 class="amenity-title">Dining Experience</h4>
+                    <p class="amenity-desc">Exquisite taste curated by world-class chefs for a memorable culinary
+                        journey.</p>
+                </div>
+                <div class="amenity-card">
+                    <div class="amenity-icon"><i data-lucide="sparkles"></i></div>
+                    <h4 class="amenity-title">Refined Sanctuary</h4>
+                    <p class="amenity-desc">Pure relaxation in a space designed to harmonize your body and soul.</p>
+                </div>
+                <!-- E-charging Station -->
+                <div class="amenity-card">
+                    <div class="amenity-icon"><i data-lucide="zap"></i></div>
+                    <h4 class="amenity-title">E-charging Station</h4>
+                    <p class="amenity-desc">Modern charging infrastructure for your electric vehicles, ensuring your
+                        journey continues effortlessly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-logo">
+                        <div style="padding: 0.5rem; background: var(--primary); border-radius: 0.5rem; display: flex;">
+                            <i data-lucide="hotel" size="20"></i>
+                        </div>
+                        <span>City Hotel</span>
+                    </div>
+                    <p class="footer-desc">Experience the pinnacle of luxury and comfort at City Hotel and Lodge. Your
+                        perfect getaway in the heart of the city.</p>
+                </div>
+                <div>
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#rooms">Rooms</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title">Contact Us</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://www.google.com/maps/search/?api=1&query=City+Hotel+Restaurant+%26+Lodge"
+                                target="_blank"><i data-lucide="map-pin" size="16"></i> City Hotel Restaurant &
+                                Lodge</a></li>
+                        <li><a href="tel:9075101113"><i data-lucide="phone" size="16"></i> 9075101113</a></li>
+                        <li><a href="mailto:cityhotel@gmail.com"><i data-lucide="mail" size="16"></i>
+                                cityhotel@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 City Hotel and Lodge. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
